@@ -93,7 +93,7 @@ experiences:
     time: June 2026 - July 2026
     company: SAG, Defense Research and Development Organization, India
     details: |
-      - Working at Scientific Analysis Group in DRDO, New Delhi. Worked under the guidance of scientist, Devendra KY.
+      - Worked at Scientific Analysis Group in DRDO, New Delhi, under the guidance of scientist, Devendra KY.
       - Extended a CHSH Bell-inequality-based quantum link quality metric (from undergraduate thesis work) into a 
       network-layer simulation framework in NetSquid, scaling from 7- to 15- to 50-node mesh topologies.
       - Identified a scalability failure in exhaustive path-enumeration routing and replaced it with a Dijkstra-style 
