@@ -82,15 +82,28 @@ education:
 experiences:
   title: Work and Research Experience
   info:
+  - role: Intern, Quantum Network Simulation
+    time: August 2026 - Present
+    company: Quantum AI Global, India
+    details: |
+      - Working on the backend codes of upcoming Quantum Network simulator by the company.
+      - Reviewing and working on the quantum networks Learning Material accompanying the simulator.
+      - Thorough testing of the simulator focusing on physics bugs.
   - role: Summer Intern
-    time: June 2026 - Present
+    time: June 2026 - July 2026
     company: SAG, Defense Research and Development Organization, India
     details: |
-      Working at Scientific Analysis Group in DRDO, New Delhi. Working under the guidance of scientist, Devendra KY.
-      - Modified and extended the CHSH algorithm from my bachelor’s thesis to 7, 15 and 50 node meshes.
-      - Analysing shortcomings of simple routing algorthitms.
-      - Studying key papers on routing protocols, purification metrics and path selection policies.
-      - Working on purification based routing algorithm implementation on a dynamic mesh (PRESENT
+      - Working at Scientific Analysis Group in DRDO, New Delhi. Worked under the guidance of scientist, Devendra KY.
+      - Extended a CHSH Bell-inequality-based quantum link quality metric (from undergraduate thesis work) into a 
+      network-layer simulation framework in NetSquid, scaling from 7- to 15- to 50-node mesh topologies.
+      - Identified a scalability failure in exhaustive path-enumeration routing and replaced it with a Dijkstra-style 
+      widest-path (maximum-bottleneck) algorithm, reducing per-decision routing complexity from exponential to O(E log V) 
+      and enabling real-time routing on 50+ node meshes.
+      - Reviewed recent literature on quantum repeater routing protocols, entanglement purification (BBPSSW/DEJMPS), 
+      and fidelity-aware path selection to inform routing policy design.
+      - Designing and implementing a purification-aware adaptive routing policy for time-varying mesh networks: 
+      a hysteresis-based switching rule that prevents route flapping under continuous link-noise drift, 
+      combined with a BBPSSW-based purification decision triggered when no path meets the security (CHSH) threshold.
   - role: Co-Author and Research Assistant
     time: March 2026 - May 2026
     company: Fujitsu Quantum Simulator Challenge
